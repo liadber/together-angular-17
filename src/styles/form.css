@@ -1,0 +1,22 @@
+.form-input {
+  background: transparent;
+  border: 0 none;
+  resize: none;
+}
+
+.form-input:disabled{
+  color: black;
+  border: none;
+}
+
+.form-input:not(disabled){
+  border: 1px dashed var(--line-color);
+}
+
+.form-submit-button:disabled{
+  background-color: transparent;
+}
+.form-submit-button:hover:not([disabled]){
+  background-color: var(--dark-color);
+  border: 1px solid var(--line-color);
+}

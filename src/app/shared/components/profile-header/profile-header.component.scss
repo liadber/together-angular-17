@@ -1,0 +1,48 @@
+.ph-container {
+  justify-content: center;
+  background-color: whitesmoke;
+}
+
+.ph-profile-header {
+  padding: var(--xs-px);
+  border-bottom: 1px solid var(--line-color);
+  width: 100%;
+  padding-bottom: var(--s-px);
+}
+
+.ph-profile-picture {
+  height: 100%;
+  margin-right: var(--s-px);
+}
+
+.ph-profile-name {
+  font-size: large;
+}
+
+.ph-profile-about-me {
+  font-size: small;
+}
+
+.ph-profile-actions ::ng-deep button {
+  font-size: 12px;
+  background-color: var(--line-color);
+  border: 1px solid var(--line-color);
+  color: black;
+  padding: 6px 14px;
+  margin-left: var(--xs-px);
+  margin-right: var(--xs-px);
+  border-radius: 3px;
+}
+
+.ph-numbers-display > div:not(:last-child) {
+  padding-right: var(--xs-px);
+}
+
+span.ph-numbers-display-number {
+  font-weight: bold;
+}
+
+.ph-numbers-display-label {
+  font-size: small;
+  padding-left: var(--xxs-px);
+}

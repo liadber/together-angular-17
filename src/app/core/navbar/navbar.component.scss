@@ -1,0 +1,29 @@
+.navbar-web-name {
+  padding: var(--xs-px);
+  margin-bottom: var(--xs-px);
+}
+
+.navbar-button {
+  align-items: center;
+  display: flex;
+  padding: var(--xs-px);
+}
+
+.navbar-button-label {
+  padding-left: var(--xs-px);
+}
+
+.navbar img {
+  margin-right: var(--m-px);
+}
+
+.navbar .navbar-button {
+  height: var(--l-px);
+  margin: 0 var(--m-px);
+  opacity: 0.8;
+}
+
+a.navbar-button:link, a.navbar-button:active, a.navbar-button:visited, a.navbar-button:hover {
+  text-decoration: none;
+  color: black;
+}

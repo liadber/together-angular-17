@@ -1,0 +1,13 @@
+.app-grid {
+  display: flex;
+  flex-wrap: wrap;
+  padding: var(--xs-px);
+}
+
+.app-grid app-grid-cell {
+  cursor: pointer;
+}
+
+.app-grid > app-grid-cell:not(:last-child) {
+  margin-right: 0;
+}

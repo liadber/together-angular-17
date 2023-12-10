@@ -1,0 +1,130 @@
+@import "button.css";
+@import "form.css";
+
+:root {
+  /*Fixed Sizes*/
+  --app-width: 975px;
+  --header-height: 60px;
+  --margin-width: 32px;
+  --profile-header-highet: 142px; /* todo it different, using the real height, more scalable*/
+
+  /*Distances*/
+  --xxs-px: 4px;
+  --xs-px: 10px;
+  --s-px: 20px;
+  --m-px: 30px;
+  --l-px: 40px;
+  --xl-px: 100px;
+
+  /*Colors*/
+  --ice-line-color: #eee;
+  --line-color: rgba(var(--b6a, 219, 219, 219), 1);
+  --background-color: #efefef;
+  --card-background-color: rgba(250, 250, 250, 0.4);
+  --dark-color: rgba(47, 47, 47, 0.45);
+  --very-dark-color: rgb(37, 37, 37);
+  --empty-color: #fafafa;
+}
+
+*{
+  font-family: Calibri;
+}
+
+/* You can add global styles to this file, and also import other style files */
+html, body {
+  background-color: var(--background-color);
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.w-strch {
+  width: 100%;
+}
+
+.h-strch {
+  height: 100%;
+}
+
+.min-height-0 {
+  min-height: 0;
+}
+
+.scroll-overflow-y {
+  overflow-y: auto;
+}
+
+.flx {
+  display: flex;
+}
+
+.frow {
+  display: flex;
+  flex-direction: row;
+}
+
+.fcol {
+  display: flex;
+  flex-direction: column;
+}
+
+.flx-jc-stretch {
+  justify-content: stretch;
+}
+
+.flx-jc-flex-end {
+  justify-content: flex-end;
+}
+
+.flx-ac-stretch {
+  justify-content: stretch;
+}
+
+.flx-ai-stretch {
+  align-items: stretch;
+}
+
+.flx-grow-1 {
+  flex-grow: 1;
+}
+
+.flx-grow-4 {
+  flex-grow: 4;
+}
+
+.flx-spc-between {
+  justify-content: space-between;
+}
+
+.flx-center-content {
+  justify-content: center;
+}
+
+.flx-align-bottom {
+  align-items: end;
+}
+
+.flx-wrap {
+  flex-wrap: wrap;
+}
+
+.picture-border {
+  border-radius: 4px;
+  border: 1px solid var(--line-color);
+  background-color: var(--empty-color);
+}
+
+.picture-proportion {
+  aspect-ratio: 1 / 1;
+}
+
+.topic {
+  letter-spacing: 1px;
+  font-weight: lighter;
+}
+
+.text-lines > :not(:last-child) {
+  margin-bottom: var(--xs-px);
+}
